@@ -53,9 +53,9 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="statix" />
+  <project path="frameworks/av" name="statix_frameworks_av" remote="leddaz-stuff" />
   <project path="frameworks/base" name="statix_frameworks_base" remote="leddaz-stuff" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
+  <project path="frameworks/native" name="statix_frameworks_native" remote="leddaz-stuff" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="statix" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="statix" />
 
@@ -99,6 +99,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" revision="13.0.0" remote="statix" clone-depth="1" />
 
   <!-- System -->
+  <project path="system/bt" name="LineageOS/android_system_bt" remote="github" revision="lineage-19.1" />
   <project path="system/core" name="android_system_core" remote="statix" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="statix" />
   <project path="system/libhidl" name="android_system_libhidl" remote="statix" />
